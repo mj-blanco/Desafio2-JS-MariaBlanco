@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio 2 | JavaScript | María Blanco</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+    <!-- HTML Ejercicio 1 -->
+    <h1> Ejercicio 1</h1>
+    <div class="img-container">
+        <img src="./assets/img/imgPaisaje.jpg" alt="Paisaje aurora boreal, transmite calma" id="img1">
+        <h3>¡Haz click en la imagen y enmarca la naturaleza!</h3>
+    </div>
+    
+    <!-- HTML Ejercicio 2 -->
+    <h1> Ejercicio 2</h1>
+    <div class="container">
+        <h2>Puedes llevar hasta 10 Stickers en total</h2>
+        <div class="sticker-container">
+            <div class="stickers-cards">
+                <img src="./assets/img/sticker1.jpg" alt="Sticker redondo, paisaje bosque ilustrado">
+                <input type="number" min="0" max="10" placeholder="Cantidad" id="sticker1">
+            </div>
+            <div class="stickers-cards">
+                <img src="./assets/img/sticker2.jpg" alt="Sticker redondo, paisaje luna llena ilustrado">
+                <input type="number" min="0" max="10" placeholder="Cantidad" id="sticker2">
+            </div>
+            <div class="stickers-cards">
+                <img src="./assets/img/sticker3.jpg" alt="Sticker redondo, paisaje montaña ilustrado">
+                <input type="number" min="0" max="10" placeholder="Cantidad" id="sticker3">
+            </div>
+        </div>
+        <h3 id="message2"> </h3>
+        <button class="verify-button" id="btn2">Verificar</button>
+    </div>
+    
+    <!-- HTML Ejercicio 3 -->
+    <h1> Ejercicio 3</h1>
+    <div class="container">
+        <h2 class="big-title">Ingresa la Contraseña</h2>
+        <div class="password-inputs">
+            <div class="input-container">
+                <label for="digit1"></label>
+                <select name="digit1" id="digit1">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                </select>
+            </div>
+            <div class="input-container">
+                <label for="digit2"></label>
+                <select name="digit2" id="digit2">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                </select>
+            </div>
+            <div class="input-container">
+                <label for="digit3"></label>
+                <select name="digit3" id="digit3">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                </select>
+            </div>
+        </div>
+        <button class="verify-button" id="btn3">Ingresar</button>
+        <h3 id="message3"> </h3>
+    </div>
+    <script src="./assets/js/script.js"></script>
+</body>
+</html>
